@@ -52,3 +52,4 @@ C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.R
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\bin\Debug\atmsystem.exe
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\bin\Debug\atmsystem.pdb
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\bin\Debug\atmsystem.xml
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.DepositReports.resources

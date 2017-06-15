@@ -9,25 +9,24 @@ using System.Windows.Forms;
 
 namespace atmsystem
 {
-    public partial class WithdrawReports : Form
+    public partial class DepositReports : Form
     {
-        ATMDataContext atm;
-        public WithdrawReports()
+        public DepositReports()
         {
             InitializeComponent();
         }
 
         #region Default Instance
-        private static WithdrawReports defaultInstance;
+        private static DepositReports defaultInstance;
 
 
-        public static WithdrawReports Default
+        public static DepositReports Default
         {
             get
             {
                 if (defaultInstance == null)
                 {
-                    defaultInstance = new WithdrawReports();
+                    defaultInstance = new DepositReports();
                     defaultInstance.FormClosed += new FormClosedEventHandler(defaultInstance_FormClosed);
                 }
 
@@ -41,10 +40,10 @@ namespace atmsystem
         }
         #endregion
 
-        private void WithdrawReports_Load(object sender, EventArgs e)
+        private void DepositReports_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'bankingDataSet.Withdraws' table. You can move, or remove it, as needed.
-            this.withdrawsTableAdapter.Fill(this.bankingDataSet.Withdraws);
+            // TODO: This line of code loads data into the 'bankingDataSet.Deposits' table. You can move, or remove it, as needed.
+            this.depositsTableAdapter.Fill(this.bankingDataSet.Deposits);
 
         }
 
@@ -52,6 +51,7 @@ namespace atmsystem
         {
             this.Close();
         }
+
 
     }
 }

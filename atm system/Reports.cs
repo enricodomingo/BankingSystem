@@ -99,7 +99,7 @@ namespace atmsystem
 		
 		public void btndep_Click(System.Object sender, System.EventArgs e)
 		{
-			Deposit.Default.Show();
+			DepositReports.Default.Show();
 			this.Hide();
 		}
 		

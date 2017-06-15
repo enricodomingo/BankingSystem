@@ -77,11 +77,22 @@
     <Compile Include="Balanceinq.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BankingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BankingDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Deposit.Designer.cs">
       <DependentUpon>Deposit.cs</DependentUpon>
     </Compile>
     <Compile Include="Deposit.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositReports.Designer.cs">
+      <DependentUpon>DepositReports.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -147,6 +158,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DepositReports.resx">
+      <DependentUpon>DepositReports.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WithdrawReports.resx">
       <DependentUpon>WithdrawReports.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +205,17 @@
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>ATM.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </None>
+    <None Include="BankingDataSet.xsc">
+      <DependentUpon>BankingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BankingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BankingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BankingDataSet.xss">
+      <DependentUpon>BankingDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
