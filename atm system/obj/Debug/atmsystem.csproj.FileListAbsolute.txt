@@ -33,3 +33,6 @@ C:\Users\ENRICO DOMINGO\Downloads\atm system\obj\Debug\atmsystem.csproj.Generate
 C:\Users\ENRICO DOMINGO\Downloads\atm system\obj\Debug\atmsystem.exe
 C:\Users\ENRICO DOMINGO\Downloads\atm system\bin\Debug\atmsystem.exe.config
 C:\Users\ENRICO DOMINGO\Downloads\atm system\obj\Debug\atmsystem.Transfer.resources
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\bin\Debug\atmsystem.exe.config
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.exe
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.pdb
