@@ -88,6 +88,11 @@ namespace atmsystem
 			Regs_frm.Default.Show();
 		}
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Reports.Default.Show();
+        }
+
 	}
 	
 }

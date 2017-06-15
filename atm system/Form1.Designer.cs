@@ -44,6 +44,7 @@ namespace atmsystem
             this.llblreg = new System.Windows.Forms.LinkLabel();
             this.txtpin = new System.Windows.Forms.TextBox();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtAccountNo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
@@ -77,6 +78,7 @@ namespace atmsystem
             // GroupBox1
             // 
             this.GroupBox1.BackColor = System.Drawing.Color.White;
+            this.GroupBox1.Controls.Add(this.linkLabel1);
             this.GroupBox1.Controls.Add(this.txtAccountNo);
             this.GroupBox1.Controls.Add(this.label1);
             this.GroupBox1.Controls.Add(this.txtpin);
@@ -92,6 +94,19 @@ namespace atmsystem
             this.GroupBox1.TabIndex = 4;
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Login";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(8, 226);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(65, 17);
+            this.linkLabel1.TabIndex = 9;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Reports";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // txtAccountNo
             // 
@@ -159,6 +174,7 @@ namespace atmsystem
 		internal System.Windows.Forms.Button btnlogin;
         internal TextBox txtAccountNo;
         internal Label label1;
+        internal LinkLabel linkLabel1;
 		
 	}
 	

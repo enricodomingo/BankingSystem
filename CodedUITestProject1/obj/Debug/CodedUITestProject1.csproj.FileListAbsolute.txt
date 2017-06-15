@@ -3,3 +3,8 @@ C:\Users\ENRICO DOMINGO\Downloads\CodedUITestProject1\bin\Debug\CodedUITestProje
 C:\Users\ENRICO DOMINGO\Downloads\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
 C:\Users\ENRICO DOMINGO\Downloads\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
 C:\Users\ENRICO DOMINGO\Downloads\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\ENRICO DOMINGO\Documents\BankingSystem\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb

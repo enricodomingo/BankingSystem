@@ -96,6 +96,12 @@
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mainmenu.Designer.cs">
       <DependentUpon>Mainmenu.cs</DependentUpon>
     </Compile>
@@ -133,8 +139,17 @@
     <Compile Include="Transfer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WithdrawReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawReports.Designer.cs">
+      <DependentUpon>WithdrawReports.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="WithdrawReports.resx">
+      <DependentUpon>WithdrawReports.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ATM.dbml.layout">
       <DependentUpon>ATM.dbml</DependentUpon>
     </None>
@@ -149,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mainmenu.resx">
       <DependentUpon>Mainmenu.cs</DependentUpon>
