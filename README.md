@@ -1,0 +1,5 @@
+# BankingSystem
+
+1. Execute the sql script "ToBeExecute.sql"
+2. Change the app.config connection string base on the sql instance installed on your computer.
+3. run the program.
