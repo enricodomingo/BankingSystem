@@ -38,7 +38,6 @@ C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.e
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.pdb
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.csprojResolveAssemblyReference.cache
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.WithdrawReports.resources
-C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.Balanceinq.resources
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.Deposit.resources
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.Login_frm.resources
 C:\Users\ENRICO DOMINGO\Documents\BankingSystem\atm system\obj\Debug\atmsystem.Regs_frm.resources

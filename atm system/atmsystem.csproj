@@ -71,12 +71,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ATM.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Balanceinq.Designer.cs">
-      <DependentUpon>Balanceinq.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Balanceinq.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="BankingDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -176,9 +170,6 @@
     <None Include="ATM.dbml.layout">
       <DependentUpon>ATM.dbml</DependentUpon>
     </None>
-    <EmbeddedResource Include="Balanceinq.resx">
-      <DependentUpon>Balanceinq.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Deposit.resx">
       <DependentUpon>Deposit.cs</DependentUpon>
     </EmbeddedResource>
