@@ -115,7 +115,7 @@ namespace atmsystem
 		
 		public void Button2_Click(System.Object sender, System.EventArgs e)
 		{
-            Transfer.Default.Show();
+            TransferReport.Default.Show();
             this.Hide();
 		}
 	}

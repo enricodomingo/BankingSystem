@@ -1,6 +1,6 @@
 ﻿namespace atmsystem
 {
-    partial class DepositReports
+    partial class TransferReport
     {
         /// <summary>
         /// Required designer variable.
@@ -32,24 +32,25 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bankingDataSet = new atmsystem.BankingDataSet();
-            this.depositsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.depositsTableAdapter = new atmsystem.BankingDataSetTableAdapters.DepositsTableAdapter();
-            this.accountNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transfersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.transfersTableAdapter = new atmsystem.BankingDataSetTableAdapters.TransfersTableAdapter();
+            this.transferFromDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transferToDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateCreatedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bankingDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.depositsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transfersBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnClose.Location = new System.Drawing.Point(147, 249);
+            this.btnClose.Location = new System.Drawing.Point(162, 159);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(136, 41);
-            this.btnClose.TabIndex = 2;
+            this.btnClose.TabIndex = 3;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -61,37 +62,45 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.accountNumberDataGridViewTextBoxColumn,
+            this.transferFromDataGridViewTextBoxColumn,
+            this.transferToDataGridViewTextBoxColumn,
             this.amountDataGridViewTextBoxColumn,
             this.dateCreatedDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.depositsBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.DataSource = this.transfersBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(13, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(441, 230);
-            this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.Size = new System.Drawing.Size(459, 150);
+            this.dataGridView1.TabIndex = 4;
             // 
             // bankingDataSet
             // 
             this.bankingDataSet.DataSetName = "BankingDataSet";
             this.bankingDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // depositsBindingSource
+            // transfersBindingSource
             // 
-            this.depositsBindingSource.DataMember = "Deposits";
-            this.depositsBindingSource.DataSource = this.bankingDataSet;
+            this.transfersBindingSource.DataMember = "Transfers";
+            this.transfersBindingSource.DataSource = this.bankingDataSet;
             // 
-            // depositsTableAdapter
+            // transfersTableAdapter
             // 
-            this.depositsTableAdapter.ClearBeforeFill = true;
+            this.transfersTableAdapter.ClearBeforeFill = true;
             // 
-            // accountNumberDataGridViewTextBoxColumn
+            // transferFromDataGridViewTextBoxColumn
             // 
-            this.accountNumberDataGridViewTextBoxColumn.DataPropertyName = "AccountNumber";
-            this.accountNumberDataGridViewTextBoxColumn.HeaderText = "AccountNumber";
-            this.accountNumberDataGridViewTextBoxColumn.Name = "accountNumberDataGridViewTextBoxColumn";
-            this.accountNumberDataGridViewTextBoxColumn.ReadOnly = true;
+            this.transferFromDataGridViewTextBoxColumn.DataPropertyName = "TransferFrom";
+            this.transferFromDataGridViewTextBoxColumn.HeaderText = "TransferFrom";
+            this.transferFromDataGridViewTextBoxColumn.Name = "transferFromDataGridViewTextBoxColumn";
+            this.transferFromDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // transferToDataGridViewTextBoxColumn
+            // 
+            this.transferToDataGridViewTextBoxColumn.DataPropertyName = "TransferTo";
+            this.transferToDataGridViewTextBoxColumn.HeaderText = "TransferTo";
+            this.transferToDataGridViewTextBoxColumn.Name = "transferToDataGridViewTextBoxColumn";
+            this.transferToDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // amountDataGridViewTextBoxColumn
             // 
@@ -107,20 +116,20 @@
             this.dateCreatedDataGridViewTextBoxColumn.Name = "dateCreatedDataGridViewTextBoxColumn";
             this.dateCreatedDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // DepositReports
+            // TransferReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 299);
+            this.ClientSize = new System.Drawing.Size(483, 206);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnClose);
-            this.Name = "DepositReports";
+            this.Name = "TransferReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DepositReports";
-            this.Load += new System.EventHandler(this.DepositReports_Load);
+            this.Text = "TransferReport";
+            this.Load += new System.EventHandler(this.TransferReport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bankingDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.depositsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transfersBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -130,9 +139,10 @@
         internal System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.DataGridView dataGridView1;
         private BankingDataSet bankingDataSet;
-        private System.Windows.Forms.BindingSource depositsBindingSource;
-        private BankingDataSetTableAdapters.DepositsTableAdapter depositsTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn accountNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource transfersBindingSource;
+        private BankingDataSetTableAdapters.TransfersTableAdapter transfersTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn transferFromDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn transferToDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateCreatedDataGridViewTextBoxColumn;
     }
