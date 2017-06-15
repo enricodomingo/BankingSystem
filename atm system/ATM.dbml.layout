@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ATM">
+  <DataContextMoniker Name="/ATMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="64e23de0-0942-4e52-8dd9-e69dd3b213cc" absoluteBounds="4.625, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ATMDataContext/Accounts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee814670-4738-4d52-9679-931bdd3269dd" absoluteBounds="4.64, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9b08304-7807-4b88-be12-8fb658765909" absoluteBounds="1.5, 1.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ATMDataContext/Deposits" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d83c6111-3b32-469a-a7a1-930929fed287" absoluteBounds="1.515, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3dc8e646-9644-431c-bdc0-8fedf1b1a880" absoluteBounds="3.625, 4.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ATMDataContext/Transfers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d877964-eb5b-4d7d-a489-aaa981e909b5" absoluteBounds="3.64, 4.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="81c3ab47-024a-4992-b3dd-2f9ad342cc57" absoluteBounds="0.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ATMDataContext/Withdraws" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0baa74de-abbf-42ed-a55f-fad7ed73e058" absoluteBounds="0.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

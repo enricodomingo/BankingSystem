@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="ATMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ENVY15\SQL2012;Initial Catalog=Banking;Integrated Security=True" SettingsObjectName="My.Settings" SettingsPropertyName="myConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="" Member="Accounts">
+    <Type Name="Accounts">
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Decimal" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Deposits">
+    <Type Name="Deposits">
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="datetime" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Transfers">
+    <Type Name="Transfers">
+      <Column Name="TransferFrom" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TransferTo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="datetime" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Withdraws">
+    <Type Name="Withdraws">
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="datetime" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
